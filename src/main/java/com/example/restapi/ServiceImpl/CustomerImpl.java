@@ -13,7 +13,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class CustomerImpl implements CustomerServiceInterface {//-->In communicate
+
+public class CustomerImpl implements CustomerServiceInterface {
+
 
     @Autowired
     private CustomerRepository customerRepository;
