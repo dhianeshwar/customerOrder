@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class CustomerImpl implements CustomerServiceInterface {
+public class CustomerImpl implements CustomerServiceInterface {//-->In communicate
     @Autowired
     private CustomerRepository customerRepository;
 
