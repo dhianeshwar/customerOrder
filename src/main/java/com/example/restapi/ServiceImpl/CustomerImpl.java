@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Service
-public class CustomerImpl implements CustomerServiceInterface {//-->In shopping
+public class CustomerImpl implements CustomerServiceInterface {//-->In communicate
+
     @Autowired
     private CustomerRepository customerRepository;
 
