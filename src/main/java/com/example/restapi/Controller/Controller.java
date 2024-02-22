@@ -25,7 +25,11 @@ public class Controller {
     @Autowired
     private OrderImpl orderimpl;
 
+<<<<<<< HEAD
 //    -----------------------------------PRODUCT--1----------------------------------------------
+=======
+//    -----------------------------------PRODUCT--2----------------------------------------------
+>>>>>>> 1b4814b2930133ff8069a270a87e6d66fda451d5
 
     @PostMapping("/insertProduct")
     public Product insertProduct(@RequestBody Product product)
